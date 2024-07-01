@@ -48,7 +48,8 @@ class GoogleNews:
             params={
                 "api_key": api_key,
                 "url": url,
-                "render_js": "false"
+                "render_js": "false",
+                "custom_google": "true"
             }
         )
         if response.status_code == 200:
